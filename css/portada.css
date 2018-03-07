@@ -1,0 +1,96 @@
+header.masthead {
+  text-align: center;
+  color: white;
+  background-image: url("../img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header.masthead .intro-text {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+header.masthead .intro-text .intro-lead-in {
+  font-size: 22px;
+ 
+  line-height: 10px;
+  margin-bottom: 25px;
+  font-family: 'Yantramanav', sans-serif;
+}
+
+header.masthead .intro-text .intro-heading {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 25px;
+  font-family: 'Quicksand' , sans-serif;
+  text-shadow: 2px 2px 2px #424242;
+}
+
+@media (min-width: 768px) {
+  header.masthead .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+  header.masthead .intro-text .intro-lead-in {
+    font-size: 40px;
+    
+    line-height: 70px;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 2px #000000;
+   
+    font-family: 'Yantramanav', sans-serif;
+  }
+  header.masthead .intro-text .intro-heading {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 85px;
+    margin-bottom: 50px;
+    font-family: 'Quicksand' , sans-serif;
+  }
+}
+
+
+@media (max-width: 630px) {
+
+  header.masthead {
+  text-align: center;
+  color: white;
+  background-image: url("../img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+}
+header .intro-text {
+
+  margin-top:  50px;
+}
+ 
+  header.masthead .intro-text .intro-lead-in {
+    font-size: 20px;
+      
+  
+    text-shadow: 2px 2px 2px #000000;
+   
+    font-family: 'Yantramanav', sans-serif;
+  }
+  header.masthead .intro-text .intro-heading {
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 85px;
+   
+    font-family: 'Quicksand' , sans-serif;
+  }
+}
+
